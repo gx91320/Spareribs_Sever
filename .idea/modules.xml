@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spareribs_Sever.iml" filepath="$PROJECT_DIR$/.idea/Spareribs_Sever.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spareribs-product/spareribs-product.iml" filepath="$PROJECT_DIR$/spareribs-product/spareribs-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spareribs-user/spareribs-user.iml" filepath="$PROJECT_DIR$/spareribs-user/spareribs-user.iml" />
+    </modules>
+  </component>
+</project>
