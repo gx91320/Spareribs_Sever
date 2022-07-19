@@ -6,17 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spareribs-product" />
         <module name="spareribs-user" />
+        <module name="renren-fast" />
+        <module name="spareribs-order" />
+        <module name="spareribs-product" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="renren-fast" target="1.8" />
+      <module name="spareribs-order" target="17" />
       <module name="spareribs-product" target="17" />
       <module name="spareribs-user" target="17" />
+      <module name="Spareribs_Sever" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="renren-fast" options="-parameters" />
+      <module name="spareribs-order" options="-parameters" />
       <module name="spareribs-product" options="-parameters" />
       <module name="spareribs-user" options="-parameters" />
     </option>
