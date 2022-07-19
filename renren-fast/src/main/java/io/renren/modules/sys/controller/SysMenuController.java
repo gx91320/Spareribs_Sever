@@ -9,7 +9,7 @@
 package io.renren.modules.sys.controller;
 
 import io.renren.common.annotation.SysLog;
-import io.renren.common.exception.RRException;
+import io.renren.common.xss.exception.RRException;
 import io.renren.common.utils.Constant;
 import io.renren.common.utils.R;
 import io.renren.modules.sys.entity.SysMenuEntity;

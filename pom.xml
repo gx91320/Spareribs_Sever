@@ -14,5 +14,6 @@
         <module>spareribs-order</module>
         <module>renren-fast</module>
         <module>renren-generator</module>
+        <module>spareribs-common</module>
     </modules>
 </project>

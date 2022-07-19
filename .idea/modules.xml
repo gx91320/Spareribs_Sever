@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spareribs_Sever.iml" filepath="$PROJECT_DIR$/.idea/Spareribs_Sever.iml" />
       <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spareribs-common/spareribs-common.iml" filepath="$PROJECT_DIR$/spareribs-common/spareribs-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/spareribs-order/spareribs-order.iml" filepath="$PROJECT_DIR$/spareribs-order/spareribs-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/spareribs-product/spareribs-product.iml" filepath="$PROJECT_DIR$/spareribs-product/spareribs-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/spareribs-user/spareribs-user.iml" filepath="$PROJECT_DIR$/spareribs-user/spareribs-user.iml" />
