@@ -1,4 +1,4 @@
-package com.spareribs.modules.product.controller;
+package com.spareribs.controller;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.spareribs.modules.product.entity.GrowthHistoryEntity;
 import com.spareribs.modules.product.service.GrowthHistoryService;
-import com.spareribs.common.utils.page
+import com.spareribs.common.utils.PageUtils;
 import com.spareribs.common.utils.R;
 
 
@@ -36,7 +36,7 @@ public class GrowthHistoryController {
      */
     @RequestMapping("/list")
     public R list(@RequestParam Map<String, Object> params){
-        com.xunqi.common.utils.PageUtils page = growthHistoryService.queryPage(params);
+        com.spareribs.common.utils.PageUtils page = growthHistoryService.queryPage(params);
 
         return R.ok().put("page", page);
     }
