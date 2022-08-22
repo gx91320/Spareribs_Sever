@@ -18,12 +18,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="renren-fast" target="1.8" />
-      <module name="renren-generator" target="8" />
-      <module name="spareribs-common" target="8" />
+      <module name="renren-generator" target="1.8" />
+      <module name="spareribs-common" target="1.8" />
       <module name="spareribs-order" target="17" />
       <module name="spareribs-product" target="17" />
-      <module name="spareribs-user" target="17" />
-      <module name="Spareribs_Sever" target="8" />
+      <module name="spareribs-user" target="1.8" />
+      <module name="Spareribs_Sever" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

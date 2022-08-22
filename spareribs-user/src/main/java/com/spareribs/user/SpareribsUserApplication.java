@@ -7,7 +7,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-@MapperScan("com.spareribs.user")
 public class SpareribsUserApplication {
 
     public static void main(String[] args) {
